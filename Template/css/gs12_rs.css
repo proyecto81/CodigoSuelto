@@ -1,0 +1,216 @@
+/*CSSDocument*/
+/*-----------------ESTRUCTURAPRINCIPAL-----------------*/
+/*Sistemadegrillas,6columnas al raz de 990px */
+/*--------------------------------------------------------*/
+.cbody{
+	width: 99.8%; /* Ancho Máximo: 99.8% */
+	overflow: auto;
+	padding: 0px;
+	margin: 0% auto;
+	padding-left:0.1%;
+	padding-right:0.1%;
+}
+
+/*--------------------SISTEMA DE GRILLAS--------------------*/
+/*-------Contenedores de Columnas-------*/
+.cnt_1, .cnt_2, .cnt_3, .cnt_4, .cnt_5, .cnt_6, .cnt_7, .cnt_8, .cnt_9, .cnt_10, .cnt_11, .cnt_12{
+	padding: 0;
+	margin-left: 0.1%;
+	float: left;
+	display: block;
+	min-height:20px;
+	margin-bottom:1px;
+}
+
+.cnt_fst{
+	margin-left: 0%;
+}
+
+.cnt_1{width: 8.225%;}
+.cnt_2{width: 16.55%;}
+.cnt_3{width: 24.875%;}
+.cnt_4{width: 33.2%;}
+.cnt_5{width: 41.525%;}
+.cnt_6{width: 49.85%;}
+.cnt_7{width: 58.175%;}
+.cnt_8{width: 66.5%;}
+.cnt_9{width: 74.825%;}
+.cnt_10{width: 83.15%;}
+.cnt_11{width: 91.475%;}
+.cnt_12{width: 99.8%;}
+
+/*-------ColumnasInteriores-------*/
+.box-cl {
+	-webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.15);
+	-moz-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.15);
+	box-shadow: 0 1px 3px rgba(0, 0, 0, 0.15);
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	margin-bottom: 0px;
+	background-color: #FFF;
+	overflow: auto;
+	margin:2px;
+}
+.box-title {
+	-webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.15);
+	-moz-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.15);
+	box-shadow: 0 1px 3px rgba(0, 0, 0, 0.15);
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	margin-bottom: 0px;
+	padding: 5px;
+	background-color: #FFF;
+	overflow: auto;
+}
+.box-cl:hover {
+	-webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.5);
+	-moz-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.5);
+	box-shadow: 0 1px 3px rgba(0, 0, 0, 0.5);
+}
+/* Columnas Contenedoras solo para organizar contenido dentro BOX */
+.box-cl-20 {
+	width: 20%;
+	float: left;
+}
+.box-cl-25 {
+	width: 25%;
+	float: left;
+}
+.box-cl-33 {
+	width: 33%;
+	float: left;
+}
+.box-cl-34 {
+	width: 34%;
+	float: left;
+}
+.box-cl-50 {
+	width: 50%;
+	float: left;
+}
+.box-cl-cont {
+	padding: 5px;padding: 2px;
+	overflow: auto;
+}
+.box-cl-head {
+	background: #444 url('../img/bg_box.png') repeat-x;
+	-moz-border-radius-topleft: 3px;
+	-moz-border-radius-topright: 3px;
+	-moz-border-radius-bottomright: 0px;
+	-moz-border-radius-bottomleft: 0px;
+	-webkit-border-radius: 3px 3px 0px 0px;
+	border-radius: 3px 3px 0px 0px;
+	-webkit-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.2) inset;
+	-moz-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.2) inset;
+	box-shadow: 0 1px 0 rgba(255, 255, 255, 0.2) inset;
+	padding: 8px 5px;
+	border: 1px solid #444;
+	border-bottom: 1px solid #ccc;
+	border-top: 1px solid #444;
+	color: #eee;
+	text-shadow: 0px 1px 0px #000;
+	overflow: auto;
+}
+.box-cl:hover .box-cl-head {
+	color: #fff;
+	background-color: #555;
+	border-top: 1px solid #444;
+	-webkit-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.2) inset;
+	-moz-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.2) inset;
+	box-shadow: 0 1px 0 rgba(255, 255, 255, 0.2) inset;
+}
+
+
+
+
+
+
+
+
+
+
+
+.nest_1, .nest_2, .nest_3, .nest_4, .nest_5, .nest_6, .nest_7, .nest_8, .nest_9, .nest_10, .nest_11, .nest_12{
+	padding: 0px;
+	margin: 0px;
+	float: left;
+	display: block;
+}
+.nest_1{width: 	100px;}
+.nest_2{width: 	200px;}
+.nest_3{width: 	300px;}
+.nest_4{width: 	400px;}
+.nest_5{width: 	500px;}
+.nest_6{width: 	600px;}
+.nest_7{width: 	700px;}
+.nest_8{width: 	800px;}
+.nest_9{width: 	900px;}
+.nest_10{width: 1000px;}
+.nest_11{width: 1100px;}
+.nest_12{width: 1200px;}
+
+
+/* ------- Columnas Interiores ------- */
+.cl_1, .cl_2, .cl_3, .cl_4, .cl_5, .cl_6, .cl_7, .cl_8, .cl_9, .cl_10, .cl_11, .cl_12  {
+	padding: 5px;
+	margin: 1px 3px 2px 3px;
+	/* Suma 16 */
+	float: left;
+	display: block;
+	border-radius: 2px;
+	-moz-border-radius: 2px;
+	-webkit-border-radius: 2px;
+	-khtml-border-radius: 2px;
+}
+.cl_1{width:   84px;}
+.cl_2{width:  184px;}
+.cl_3{width:  284px;}
+.cl_4{width:  384px;}
+.cl_5{width:  484px;}
+.cl_6{width:  584px;}
+.cl_7{width:  684px;}
+.cl_8{width:  784px;}
+.cl_9{width:  884px;}
+.cl_10{width: 984px;}
+.cl_11{width:1084px;}
+.cl_12{width:1184px;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* MEDIA QUERIES ----------------------------------------------------------------*/
+/* Large desktop */
+@media (min-width: 1281px) {
+}
+
+/* Portrait tablet to landscape and desktop */
+@media (min-width: 768px) and (max-width: 1280px) {
+}
+/* Landscape phone to portrait tablet */
+@media (max-width: 767px) {
+}
+/* Landscape phones and down */
+@media (max-width: 480px) {
+}

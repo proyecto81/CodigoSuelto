@@ -1,0 +1,138 @@
+@charset "utf-8";
+/* CSS Document */
+html {
+	height:auto;
+}
+body {
+	height:auto;
+}
+a, a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+.clear {
+	clear: both;
+	display: block;
+	overflow: hidden;
+	visibility: hidden;
+	width: 0;
+	height: 0;
+}
+.separador {
+	clear: both;
+	display: block;
+	overflow: hidden;
+	visibility: hidden;
+	width: 0;
+	height: 0;
+	margin-bottom:15px;
+}
+
+/* =Spacing
+--------------------------------------------------------------------------------*/
+ol {
+	list-style: decimal;
+}
+ul {
+}
+li {
+}
+dl, hr, h1, h2, h3, h4, h5, h6, ol, ul, pre, table, address, fieldset {
+}
+p {
+	padding: 0px;
+	margin: 0px;
+}
+article {
+}
+
+.scaler > img, video, object {
+	max-width: 100%;
+}
+.scaler > img, video, object {
+	width: 100%;
+}
+
+
+/* ----------------- ESTILOS BASICOS ----------------- */
+
+/* MARGENES */
+.padd_0 {	padding:0px;}
+.padd_5 {	padding:5px;}
+.padd_10 {	padding:10px;}
+.padd_15 {	padding:15px;}
+.margin_0 {	margin:0px;}
+.margin_10{margin-bottom:10px;}
+
+/* BG DE COLORES TRANSPARENTES */
+.bg_grey {background-color:rgba(100, 100, 100, 0.5);}
+.bg_blue {background-color:rgba(000, 128, 255, 0.5);}
+.bg_green {background-color:rgba(84, 179, 97, 0.5);}
+.bg_yellow {background-color:rgba(255, 255, 255, 0.5);}
+.bg_red {background-color:rgba(255, 85, 000, 0.5);}
+.bg_black {background-color:rgba(000, 000, 000, 0.5);}
+.bg_orange {background-color:rgba(255, 128, 000, 0.5);}
+.bg_white {background-color:rgba(255, 255, 255, 0.5);}
+.bg_white_2 {background-color:rgba(255, 255, 255, 0.1);}
+.bg_rare_1 {background-color:rgba(209, 15, 127, 0.5);}
+.bg_rare_2 {background-color:rgba(15, 127, 209, 0.5);}
+.bg_rare_3 {background-color:rgba(127, 209, 127, 0.5);}
+
+
+/* BG DE COLORES PLENOS */
+.bg_pure_whigrey {background-color:#F2F2F2;}
+.bg_pure_whigrey2 {background-color:#E7E7E7;}
+.bg_pure_white {background-color:#FFFFFF;}
+.bg_pure_green {background-color:#54b361;}
+.bg_pure_blue {background-color:#03F;}
+.bg_pure_red {background-color:#cc3300;}
+.bg_pure_grey {background-color:#444444;}
+.bg_pure_grey_light {background-color:#777777;}
+.bg_pure_orange {background-color:#f68d1a;}
+.bg_pure_yellow {background-color:#FF0;}
+.bg_pure_black {background-color:#000;}
+
+/* ALTURAS MINIMAS */
+.altura_200 {min-height:200px;}
+.altura_175 {min-height:175px;}
+.altura_150 {min-height:150px;}
+.altura_100 {min-height:100px;}
+.altura_25	{min-height:25px;}
+/* BORDES */
+.bdrgrls {
+	border-radius:			3px;
+	-moz-border-radius:		3px;
+	-webkit-border-radius:	3px;
+	-khtml-border-radius: 	3px;
+	overflow:hidden;
+}
+.bdrgrls_5 {
+	border-radius:			5px;
+	-moz-border-radius:		5px;
+	-webkit-border-radius:	5px;
+	-khtml-border-radius: 	5px;
+	overflow:hidden;
+}
+
+.bdrgrls_10 {
+	border-radius:			10px;
+	-moz-border-radius:		10px;
+	-webkit-border-radius:	10px;
+	-khtml-border-radius: 	10px;
+	overflow:hidden;
+}
+/* SOMBRA */
+.dropshadow_shape {
+	-moz-box-shadow: 	3px 3px 4px 0px rgba(000, 000, 000, 0.4);
+	-webkit-box-shadow: 3px 3px 4px 0px rgba(000, 000, 000, 0.4);
+	box-shadow: 		3px 3px 4px 0px rgba(000, 000, 000, 0.4);/* For IE 8 */
+	-ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=3, Direction=180, Color='#000000')";	/* For IE 5.5 - 7 */
+ filter: progid:DXImageTransform.Microsoft.Shadow(Strength=3, Direction=180, Color='#000000');
+}
+.dropshadow_text {
+	text-shadow:1px 1px 1px #444;
+	filter:dropshadow(color=#444, offx=1, offy=1);
+}
+/* -------------------------------------------------------- */
