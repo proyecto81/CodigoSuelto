@@ -20,9 +20,6 @@
             $user->email = $post_data['email'];
             $user->password = $post_data['clave_cuenta'];
             $distribuidor->cuenta->user = $user;
-           
-            debug($distribuidor->cuenta);
-            
             
             $distribuidor->dirty('cuenta', true);
             //$distribuidor->cuenta->dirty('user', true);
